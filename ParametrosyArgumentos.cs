@@ -24,6 +24,12 @@ namespace ConsoleApp1
 
         
 
+        } 
+
+        static void ModificarValor(int n)
+        {
+            n = n + 1;
+            Console.WriteLine($"Dentro del metodo: {n}");
         }
 
         
@@ -34,9 +40,12 @@ namespace ConsoleApp1
             imprimirSuma(y, x); //y, x (argumentos Actuales)
             imprimirSuma(1000, -1); //1000, -1 (Argumentos literales)
             MostrarPotenciaX(x, y);
+            int edad = 15;
+            Console.WriteLine($"Antes del metodo: {edad}");
+            ModificarValor(edad);
+            Console.WriteLine($"Despues del Metodo: {edad}");
 
         }
     }
 
 }
-      
