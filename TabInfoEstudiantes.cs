@@ -5,7 +5,7 @@ class Program
 {
     static void Main()
     {
-        string ruta = "estudiantes.csv";
+        string ruta = "TabInfoestudiantes.csv";
 
         using (StreamWriter sw = new StreamWriter(ruta))
         {
